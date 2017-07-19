@@ -16,6 +16,14 @@
 		32FE1E721B3AC8F700A410D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FE1E711B3AC8F700A410D2 /* Images.xcassets */; };
 		32FE1E751B3AC8F700A410D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FE1E731B3AC8F700A410D2 /* LaunchScreen.xib */; };
 		32FE1E811B3AC8F700A410D2 /* UnoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE1E801B3AC8F700A410D2 /* UnoTests.m */; };
+		32FE9ACF1B3BC84400DF5C10 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9AC01B3BC84400DF5C10 /* Card.m */; };
+		32FE9AD01B3BC84400DF5C10 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9AC21B3BC84400DF5C10 /* CardMatchingGame.m */; };
+		32FE9AD11B3BC84400DF5C10 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9AC41B3BC84400DF5C10 /* Deck.m */; };
+		32FE9AD21B3BC84400DF5C10 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9AC61B3BC84400DF5C10 /* PlayingCard.m */; };
+		32FE9AD31B3BC84400DF5C10 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9AC81B3BC84400DF5C10 /* PlayingCardDeck.m */; };
+		32FE9AD41B3BC84400DF5C10 /* UnoCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9ACA1B3BC84400DF5C10 /* UnoCard.m */; };
+		32FE9AD51B3BC84400DF5C10 /* UnoCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9ACC1B3BC84400DF5C10 /* UnoCardDeck.m */; };
+		32FE9AD61B3BC84400DF5C10 /* UnoGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9ACE1B3BC84400DF5C10 /* UnoGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,22 @@
 		32FE1E7A1B3AC8F700A410D2 /* UnoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FE1E7F1B3AC8F700A410D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32FE1E801B3AC8F700A410D2 /* UnoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnoTests.m; sourceTree = "<group>"; };
+		32FE9ABF1B3BC84400DF5C10 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		32FE9AC01B3BC84400DF5C10 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		32FE9AC11B3BC84400DF5C10 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		32FE9AC21B3BC84400DF5C10 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		32FE9AC31B3BC84400DF5C10 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		32FE9AC41B3BC84400DF5C10 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		32FE9AC51B3BC84400DF5C10 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		32FE9AC61B3BC84400DF5C10 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		32FE9AC71B3BC84400DF5C10 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		32FE9AC81B3BC84400DF5C10 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		32FE9AC91B3BC84400DF5C10 /* UnoCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnoCard.h; sourceTree = "<group>"; };
+		32FE9ACA1B3BC84400DF5C10 /* UnoCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnoCard.m; sourceTree = "<group>"; };
+		32FE9ACB1B3BC84400DF5C10 /* UnoCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnoCardDeck.h; sourceTree = "<group>"; };
+		32FE9ACC1B3BC84400DF5C10 /* UnoCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnoCardDeck.m; sourceTree = "<group>"; };
+		32FE9ACD1B3BC84400DF5C10 /* UnoGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnoGame.h; sourceTree = "<group>"; };
+		32FE9ACE1B3BC84400DF5C10 /* UnoGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnoGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +110,6 @@
 		32FE1E5E1B3AC8F700A410D2 /* Uno */ = {
 			isa = PBXGroup;
 			children = (
-				32FE1E631B3AC8F700A410D2 /* AppDelegate.h */,
-				32FE1E641B3AC8F700A410D2 /* AppDelegate.m */,
 				32FE1E661B3AC8F700A410D2 /* GameScene.h */,
 				32FE1E671B3AC8F700A410D2 /* GameScene.m */,
 				32FE1E691B3AC8F700A410D2 /* GameScene.sks */,
@@ -96,6 +118,7 @@
 				32FE1E6E1B3AC8F700A410D2 /* Main.storyboard */,
 				32FE1E711B3AC8F700A410D2 /* Images.xcassets */,
 				32FE1E731B3AC8F700A410D2 /* LaunchScreen.xib */,
+				32FE9ABE1B3BC84400DF5C10 /* Model */,
 				32FE1E5F1B3AC8F700A410D2 /* Supporting Files */,
 			);
 			path = Uno;
@@ -104,6 +127,8 @@
 		32FE1E5F1B3AC8F700A410D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32FE1E631B3AC8F700A410D2 /* AppDelegate.h */,
+				32FE1E641B3AC8F700A410D2 /* AppDelegate.m */,
 				32FE1E601B3AC8F700A410D2 /* Info.plist */,
 				32FE1E611B3AC8F700A410D2 /* main.m */,
 			);
@@ -125,6 +150,29 @@
 				32FE1E7F1B3AC8F700A410D2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32FE9ABE1B3BC84400DF5C10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32FE9ABF1B3BC84400DF5C10 /* Card.h */,
+				32FE9AC01B3BC84400DF5C10 /* Card.m */,
+				32FE9AC11B3BC84400DF5C10 /* CardMatchingGame.h */,
+				32FE9AC21B3BC84400DF5C10 /* CardMatchingGame.m */,
+				32FE9AC31B3BC84400DF5C10 /* Deck.h */,
+				32FE9AC41B3BC84400DF5C10 /* Deck.m */,
+				32FE9AC51B3BC84400DF5C10 /* PlayingCard.h */,
+				32FE9AC61B3BC84400DF5C10 /* PlayingCard.m */,
+				32FE9AC71B3BC84400DF5C10 /* PlayingCardDeck.h */,
+				32FE9AC81B3BC84400DF5C10 /* PlayingCardDeck.m */,
+				32FE9AC91B3BC84400DF5C10 /* UnoCard.h */,
+				32FE9ACA1B3BC84400DF5C10 /* UnoCard.m */,
+				32FE9ACB1B3BC84400DF5C10 /* UnoCardDeck.h */,
+				32FE9ACC1B3BC84400DF5C10 /* UnoCardDeck.m */,
+				32FE9ACD1B3BC84400DF5C10 /* UnoGame.h */,
+				32FE9ACE1B3BC84400DF5C10 /* UnoGame.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +276,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FE9AD01B3BC84400DF5C10 /* CardMatchingGame.m in Sources */,
+				32FE9AD31B3BC84400DF5C10 /* PlayingCardDeck.m in Sources */,
+				32FE9AD11B3BC84400DF5C10 /* Deck.m in Sources */,
+				32FE9ACF1B3BC84400DF5C10 /* Card.m in Sources */,
+				32FE9AD61B3BC84400DF5C10 /* UnoGame.m in Sources */,
+				32FE9AD51B3BC84400DF5C10 /* UnoCardDeck.m in Sources */,
 				32FE1E6D1B3AC8F700A410D2 /* GameViewController.m in Sources */,
 				32FE1E651B3AC8F700A410D2 /* AppDelegate.m in Sources */,
 				32FE1E681B3AC8F700A410D2 /* GameScene.m in Sources */,
+				32FE9AD21B3BC84400DF5C10 /* PlayingCard.m in Sources */,
+				32FE9AD41B3BC84400DF5C10 /* UnoCard.m in Sources */,
 				32FE1E621B3AC8F700A410D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +484,7 @@
 				32FE1E861B3AC8F700A410D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FE1E871B3AC8F700A410D2 /* Build configuration list for PBXNativeTarget "UnoTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +493,7 @@
 				32FE1E891B3AC8F700A410D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
